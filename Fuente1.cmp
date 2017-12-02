@@ -1,0 +1,179 @@
+Cmp-Mod V01 Created by PcbNew   date = vie 01 dic 2017 18:50:23 CST
+
+BeginCmp
+TimeStamp = 5A1DC7DD
+Path = /5A06162C
+Reference = C1;
+ValeurCmp = 2200uF;
+IdModule  = Capacitors_THT:CP_Radial_D16.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC7E3
+Path = /5A0616CE
+Reference = C2;
+ValeurCmp = 2200uF;
+IdModule  = Capacitors_THT:CP_Radial_D16.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC7E9
+Path = /5A1A7ED2
+Reference = C3;
+ValeurCmp = 1nF;
+IdModule  = Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC7EF
+Path = /5A064226
+Reference = C4;
+ValeurCmp = 1nF;
+IdModule  = Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC7F5
+Path = /5A0642A0
+Reference = C5;
+ValeurCmp = 1nF;
+IdModule  = Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC7FB
+Path = /5A1A6E70
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_THT:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC801
+Path = /5A1A7393
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC80F
+Path = /5A1A67E1
+Reference = D2;
+ValeurCmp = EXI_1N4007;
+IdModule  = Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC836
+Path = /5A1D9567
+Reference = J2;
+ValeurCmp = Salidas de voltaje;
+IdModule  = EXI_Conectores:EXI_Terminal_Hembra_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DC83D
+Path = /5A1A6FC9
+Reference = POT1;
+ValeurCmp = 4.7k;
+IdModule  = EXI_Conectores:EXI_Terminal_Hembra_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DCB61
+Path = /5A06154E
+Reference = J1;
+ValeurCmp = Alimentacion;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DCB66
+Path = /5A061353
+Reference = T1;
+ValeurCmp = 5:1 / 5A;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_5pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1DCBFA
+Path = /5A1DC143
+Reference = F1;
+ValeurCmp = EXI_Fusible;
+IdModule  = Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20814E
+Path = /5A1DB901
+Reference = D1;
+ValeurCmp = EXI-KBL406;
+IdModule  = EXI_Diodos:EXI_D3SB10;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20AD2D
+Path = /5A1DB3C1
+Reference = IN1;
+ValeurCmp = Selector de salida;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20B41E
+Path = /5A1D9764
+Reference = U1;
+ValeurCmp = L7812CV;
+IdModule  = EXI_Transistores:TO-220-3_Horizontal_Heatsink_10x15x21mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20B440
+Path = /5A1D93FE
+Reference = U3;
+ValeurCmp = LM338T;
+IdModule  = EXI_Transistores:TO-220-3_Horizontal_Heatsink_10x15x21mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20B451
+Path = /5A1D8DFA
+Reference = U4;
+ValeurCmp = L7805CV;
+IdModule  = EXI_Transistores:TO-220-3_Horizontal_Heatsink_10x15x21mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20BAE8
+Path = /5A1A6B87
+Reference = D3;
+ValeurCmp = EXI_1N4007;
+IdModule  = Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20BAED
+Path = /5A1A6A58
+Reference = R1;
+ValeurCmp = 270;
+IdModule  = Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A21A583
+Path = 
+Reference = REF**;
+ValeurCmp = caja_proyecto_172x133mm;
+IdModule  = EXI_Varios:caja_proyecto_172x133mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A20B42F
+Path = /5A1D9CCD
+Reference = U2;
+ValeurCmp = L7912CV;
+IdModule  = EXI_Transistores:TO-220-3_Horizontal_Heatsink_10x15x21mm;
+EndCmp
+
+EndListe

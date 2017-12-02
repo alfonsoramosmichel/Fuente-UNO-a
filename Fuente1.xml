@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/usr/share/kicad/proyectos/fuentelab/Fuente1.sch</source>
+    <date>mar 28 nov 2017 14:26:13 CST</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Fuente1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="T1">
+      <value>5:1 / 5A</value>
+      <footprint>EXI_Conectores:EXI_Terminal_Hembra_1x05</footprint>
+      <libsource lib="EXI_Inductores" part="EXI_Transformador_Derivacion_x1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A061353</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Alimentacion</value>
+      <footprint>EXI_Conectores:EXI_Terminal_Hembra_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02_FEMALE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06154E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2200uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <libsource lib="EXI_Condensadores" part="EXI_Condensador_Polarizado"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A06162C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2200uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <libsource lib="EXI_Condensadores" part="EXI_Condensador_Polarizado"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0616CE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1nF</value>
+      <footprint>Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="EXI_Condensadores" part="EXI_Condensador"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A064226</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1nF</value>
+      <footprint>Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="EXI_Condensadores" part="EXI_Condensador"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0642A0</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>EXI_1N4007</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <libsource lib="EXI_Diodos" part="EXI_1N4007"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1A67E1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>270</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="EXI_Resistores" part="EXI_Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1A6A58</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>EXI_1N4007</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <libsource lib="EXI_Diodos" part="EXI_1N4007"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1A6B87</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="EXI_Condensadores" part="EXI_Condensador_Polarizado"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1A6E70</tstamp>
+    </comp>
+    <comp ref="POT1">
+      <value>4.7k</value>
+      <footprint>EXI_Conectores:EXI_Terminal_Hembra_1x03</footprint>
+      <libsource lib="EXI_Resistores" part="EXI_Potenciómetro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1A6FC9</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="EXI_Condensadores" part="EXI_Condensador"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1A7393</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1nF</value>
+      <footprint>Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="EXI_Condensadores" part="EXI_Condensador"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1A7ED2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Salidas de voltaje</value>
+      <footprint>EXI_Conectores:EXI_Terminal_Hembra_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1D9567</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>L7805CV</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="EXI_Reguladores" part="L7805CV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1D8DFA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM338T</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="EXI_Reguladores" part="LM338T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1D93FE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L7812CV</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="EXI_Reguladores" part="L7812CV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1D9764</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L7912CV</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="EXI_Reguladores" part="L7912CV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1D9CCD</tstamp>
+    </comp>
+    <comp ref="IN1">
+      <value>Selector de salida</value>
+      <footprint>EXI_Conectores:EXI_Terminal_Hembra_1x07</footprint>
+      <libsource lib="EXI_Interruptores" part="Conmutador_3p2t"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1DB3C1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>EXI-KBL406</value>
+      <footprint>Diodes_THT:Diode_Bridge_18.5x5.5</footprint>
+      <libsource lib="EXI_Diodos" part="EXI-KBL406"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1DB901</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>EXI_Fusible</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm</footprint>
+      <libsource lib="EXI_Varios" part="EXI_Fusible"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1DC143</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02_FEMALE">
+      <description>Generic Female Connector, Single Row, 01x02, socket header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02_FEMALE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector, single row, 01x06, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Interruptores" part="Conmutador_3p2t">
+      <description>Conmutador 3p2t</description>
+      <fields>
+        <field name="Reference">IN</field>
+        <field name="Value">Conmutador_3p2t</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Diodos" part="EXI-KBL400">
+      <aliases>
+        <alias>EXI-KBL401</alias>
+        <alias>EXI-KBL402</alias>
+        <alias>EXI-KBL404</alias>
+        <alias>EXI-KBL406</alias>
+        <alias>EXI-KBL408</alias>
+        <alias>EXI-KBL410</alias>
+      </aliases>
+      <description>Puente rectificador monofásico de 4A</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">EXI-KBL400</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="ac" type="passive"/>
+        <pin num="3" name="ac" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Diodos" part="EXI_1N4001">
+      <aliases>
+        <alias>EXI_1N4002</alias>
+        <alias>EXI_1N4003</alias>
+        <alias>EXI_1N4004</alias>
+        <alias>EXI_1N4005</alias>
+        <alias>EXI_1N4006</alias>
+        <alias>EXI_1N4007</alias>
+      </aliases>
+      <description>Diodo rectificador de baja potencia</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">EXI_1N4001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Condensadores" part="EXI_Condensador">
+      <description>Condensador no polarizado,</description>
+      <docs>https://es.wikipedia.org/wiki/Condensador_el%C3%A9ctrico</docs>
+      <footprints>
+        <fp>C*</fp>
+        <fp>EXI*Condensador*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EXI_Condensador</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Condensadores" part="EXI_Condensador_Polarizado">
+      <description>Condesador polarizado</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EXI_Condensador_Polarizado</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Varios" part="EXI_Fusible">
+      <description>Fusible</description>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">EXI_Fusible</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Resistores" part="EXI_Potenciómetro">
+      <description>Resistor variable</description>
+      <fields>
+        <field name="Reference">POT</field>
+        <field name="Value">EXI_Potenciómetro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Resistores" part="EXI_Resistor">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">EXI_Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Inductores" part="EXI_Transformador_Derivacion_x1">
+      <description>Transformador con derivación central</description>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">EXI_Transformador_Derivacion_x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Reguladores" part="L7805CV">
+      <aliases>
+        <alias>L7852CV</alias>
+        <alias>L7806CV</alias>
+        <alias>L7808CV</alias>
+        <alias>L7885CV</alias>
+        <alias>L7809CV</alias>
+        <alias>L7810CV</alias>
+        <alias>L7812CV</alias>
+        <alias>L7815CV</alias>
+        <alias>L7818CV</alias>
+        <alias>L7820CV</alias>
+        <alias>L7824CV</alias>
+      </aliases>
+      <description>Regulador de voltaje positivo de 1.5A max</description>
+      <docs>/usr/share/kicad/doc/Reguladores/l78xx - st.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805CV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="gnd" type="input"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Reguladores" part="L7905CV">
+      <aliases>
+        <alias>L7952CV</alias>
+        <alias>L7906CV</alias>
+        <alias>L7908CV</alias>
+        <alias>L7912CV</alias>
+        <alias>L7915CV</alias>
+        <alias>L7918CV</alias>
+        <alias>L7920CV</alias>
+        <alias>L7922CV</alias>
+        <alias>L7924CV</alias>
+      </aliases>
+      <description>Regulador de voltaje positivo de 1.5A max</description>
+      <docs>/usr/share/kicad/doc/Reguladores/l78xx - st.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7905CV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="gnd" type="input"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXI_Reguladores" part="LM138T">
+      <aliases>
+        <alias>LM338T</alias>
+      </aliases>
+      <description>Regulador de voltaje ajustable positivo 5A</description>
+      <docs>/usr/share/kicad/doc/Reguladores/lm338 - national.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM138T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Adj" type="input"/>
+        <pin num="2" name="Vout" type="power_out"/>
+        <pin num="3" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="EXI_Condensadores">
+      <uri>/usr/share/kicad/library/EXI_Condensadores.lib</uri>
+    </library>
+    <library logical="EXI_Diodos">
+      <uri>/usr/share/kicad/library/EXI_Diodos.lib</uri>
+    </library>
+    <library logical="EXI_Interruptores">
+      <uri>/usr/share/kicad/library/EXI_Interruptores.lib</uri>
+    </library>
+    <library logical="EXI_Inductores">
+      <uri>/usr/share/kicad/library/EXI_Inductores.lib</uri>
+    </library>
+    <library logical="EXI_Reguladores">
+      <uri>/usr/share/kicad/library/EXI_Reguladores.lib</uri>
+    </library>
+    <library logical="EXI_Resistores">
+      <uri>/usr/share/kicad/library/EXI_Resistores.lib</uri>
+    </library>
+    <library logical="EXI_Varios">
+      <uri>/usr/share/kicad/library/EXI_Varios.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/V+">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="2" name="/+5V">
+      <node ref="C3" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="3" name="/cmn">
+      <node ref="J2" pin="6"/>
+      <node ref="U4" pin="2"/>
+      <node ref="IN1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="POT1" pin="3"/>
+      <node ref="POT1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="4" name="/+12">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="5" name="/-12">
+      <node ref="IN1" pin="5"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="POT1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(IN1-Pad6)">
+      <node ref="IN1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="T1" pin="5"/>
+    </net>
+    <net code="10" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="T1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="IN1" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad2)">
+      <node ref="T1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="15" name="/V-">
+      <node ref="D1" pin="4"/>
+      <node ref="IN1" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="16" name="/+12V">
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="IN1" pin="4"/>
+    </net>
+    <net code="17" name="/-12V">
+      <node ref="IN1" pin="7"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="18" name="/+Vv">
+      <node ref="C7" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="2"/>
+    </net>
+  </nets>
+</export>
